@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="411.0" prefWidth="700.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="calpro.TableController">
+  <children>
+    <TableView fx:id="table" editable="true" layoutX="14.0" layoutY="0.0" prefHeight="397.0" prefWidth="586.0" tableMenuButtonVisible="true">
+      <columns>
+        <TableColumn maxWidth="5000.0" minWidth="10.0" prefWidth="152.0" text="Indicator Reading" />
+        <TableColumn maxWidth="5000.0" minWidth="10.0" prefWidth="152.0" text="Ref Reading" />
+      </columns>
+    </TableView>
+    <Button fx:id="but" layoutX="605.0" layoutY="45.0" mnemonicParsing="false" onAction="#butPressed" text="Button" visible="false" />
+  </children>
+</AnchorPane>

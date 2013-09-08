@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" minHeight="84.00009999999747" minWidth="-Infinity" prefHeight="273.9998558593725" prefWidth="700.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="calpro.generalInfoController">
+  <children>
+    <Accordion expandedPane="$null" layoutX="0.0" layoutY="228.0" />
+    <GridPane layoutX="14.0" layoutY="14.0" prefHeight="234.0" prefWidth="672.0">
+      <children>
+        <Label text="Client's Name" GridPane.columnIndex="0" GridPane.rowIndex="0" />
+        <Label text="Client's Address" GridPane.columnIndex="0" GridPane.rowIndex="1" />
+        <TextField prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="0" />
+        <TextArea prefWidth="200.0" wrapText="true" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+        <Label text="Instrument Details " GridPane.columnIndex="0" GridPane.rowIndex="2" />
+        <TextField prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+        <GridPane prefHeight="52.0" prefWidth="278.0" GridPane.columnIndex="1" GridPane.rowIndex="3">
+          <children>
+            <Label text="Serial Number" GridPane.columnIndex="1" GridPane.rowIndex="0" />
+            <Label text="Capacity" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+            <Label text="Range" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+            <TextField prefWidth="200.0" GridPane.columnIndex="3" GridPane.rowIndex="0" />
+            <TextField prefWidth="200.0" GridPane.columnIndex="3" GridPane.rowIndex="1" />
+            <TextField prefWidth="200.0" GridPane.columnIndex="3" GridPane.rowIndex="2" />
+            <TextField prefWidth="200.0" GridPane.columnIndex="5" GridPane.rowIndex="1" />
+            <Label text="Unit" GridPane.columnIndex="5" GridPane.rowIndex="0" />
+          </children>
+          <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="90.0" minWidth="10.0" prefWidth="34.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="90.0" minWidth="10.0" prefWidth="82.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="163.0" minWidth="0.0" prefWidth="22.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="162.0" minWidth="10.0" prefWidth="150.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="162.0" minWidth="10.0" prefWidth="47.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="162.0" minWidth="10.0" prefWidth="85.0" />
+          </columnConstraints>
+          <rowConstraints>
+            <RowConstraints maxHeight="23.0" minHeight="10.0" prefHeight="23.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="23.0" minHeight="10.0" prefHeight="23.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="23.0" minHeight="10.0" prefHeight="23.0" vgrow="SOMETIMES" />
+          </rowConstraints>
+        </GridPane>
+        <GridPane prefHeight="69.0" prefWidth="278.0" GridPane.columnIndex="0" GridPane.rowIndex="3">
+          <children>
+            <Label text="Make" GridPane.columnIndex="1" GridPane.rowIndex="0" />
+            <Label text="Model" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+            <Label text="Resolution" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+            <TextField prefWidth="200.0" GridPane.columnIndex="3" GridPane.rowIndex="0" />
+            <TextField prefWidth="200.0" GridPane.columnIndex="3" GridPane.rowIndex="1" />
+            <TextField prefWidth="200.0" GridPane.columnIndex="3" GridPane.rowIndex="2" />
+          </children>
+          <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="90.0" minWidth="10.0" prefWidth="10.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="92.0" minWidth="10.0" prefWidth="66.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="163.0" minWidth="10.0" prefWidth="17.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="97.0" minWidth="7.0" prefWidth="96.0" />
+          </columnConstraints>
+          <rowConstraints>
+            <RowConstraints maxHeight="23.0" minHeight="10.0" prefHeight="23.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="23.0" minHeight="10.0" prefHeight="23.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="23.0" minHeight="10.0" prefHeight="23.0" vgrow="SOMETIMES" />
+          </rowConstraints>
+        </GridPane>
+      </children>
+      <columnConstraints>
+        <ColumnConstraints hgrow="SOMETIMES" maxWidth="295.0" minWidth="10.0" prefWidth="136.0" />
+        <ColumnConstraints hgrow="SOMETIMES" maxWidth="463.0" minWidth="10.0" prefWidth="365.0" />
+      </columnConstraints>
+      <rowConstraints>
+        <RowConstraints maxHeight="69.0" minHeight="1.0" prefHeight="27.0" vgrow="SOMETIMES" />
+        <RowConstraints maxHeight="114.0" minHeight="10.0" prefHeight="71.0" vgrow="SOMETIMES" />
+        <RowConstraints maxHeight="72.0" minHeight="10.0" prefHeight="31.0" vgrow="SOMETIMES" />
+        <RowConstraints maxHeight="100.0" minHeight="0.0" prefHeight="69.0" vgrow="SOMETIMES" />
+        <RowConstraints maxHeight="104.0" minHeight="4.0" prefHeight="35.0" vgrow="SOMETIMES" />
+      </rowConstraints>
+    </GridPane>
+  </children>
+</AnchorPane>
